@@ -123,6 +123,9 @@
   <data name="FailedOperation" xml:space="preserve">
     <value>Ocorreu um erro ao realizar a operação.</value>
   </data>
+  <data name="GreaterThanOrEqualTo" xml:space="preserve">
+    <value>O campo '{0}' deve ser maior ou igual à '{1}'.</value>
+  </data>
   <data name="LessThan" xml:space="preserve">
     <value>O campo '{0}' deve ser menor que '{1}'.</value>
   </data>

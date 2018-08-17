@@ -79,6 +79,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to O campo &apos;{0}&apos; deve ser maior ou igual à &apos;{1}&apos;..
+        /// </summary>
+        public static string GreaterThanOrEqualTo {
+            get {
+                return ResourceManager.GetString("GreaterThanOrEqualTo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to O campo &apos;{0}&apos; deve ser menor que &apos;{1}&apos;..
         /// </summary>
         public static string LessThan {

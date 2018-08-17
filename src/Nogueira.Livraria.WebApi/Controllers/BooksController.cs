@@ -12,7 +12,7 @@ namespace Nogueira.Livraria.WebApi.Controllers
     /// <summary>
     /// Controller para cadastro de livros
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("api/books")]
     [EnableCors("vuejsApplication")]
     public class BooksController : BaseController
     {

@@ -60,6 +60,10 @@ namespace Nogueira.Livraria.Application.Dto.Books
             RuleFor(c => c.PublicationDate)
                 .LessThan(DateTime.Now.Date)
                 .WithMessage(string.Format(Resources.Messages.LessThan, "Data de publicação", DateTime.Now.ToShortDateString()));
+
+            RuleFor(c => c.Quantity)
+                .GreaterThanOrEqualTo(0)
+                .WithMessage(string.Format(Resources.Messages.GreaterThanOrEqualTo, "Quantidade em estoque", 0));
         }
 
         private bool ValidateGetById(BookDto dto)
